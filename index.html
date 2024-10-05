@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marin Stefan Daniel Movie Tracker</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <h1>NETCHIX</h1>
+        <h3>Movie Tracker Playlist</h3>
+        <h6>On your friend's hacked account</h6>
+    </header>
+    <nav class="navbar">
+        <div class="view-form-div">
+            <form>
+                <label>View</label>
+                <button onclick="showTable()">Table</button>
+                <button onclick="showList()">List</button>
+                <button onclick="showMovies()">Grid</button>
+            </form>
+        </div>
+        <div class="sort-form-div">
+            <form id=sort-form>
+                <select name="sort" id="sort">
+                    <option value="name">Name</option>
+                    <option value="year">Year</option>
+                    <option value="rating">Rating</option>
+                    <!-- <option value="addDate">Date Added</option> -->
+                </select>
+                <input type="submit" value="Sort by">
+            </form>
+        </div>
+    </nav>
+
+    <div class="main">
+        <div class="form-class">
+            <form id="add-form">
+                <label for="name">Name:</label><br>
+                <input type="text" name="name" id="name"/><br>
+                <label for="year">Year:</label><br>
+                <input type="number" name="year" id="year"/><br>
+                <label for="rating">Rating:</label><br>
+                <input type="text" name="rating" id="rating"><br>
+                <label for="description">Description:</label><br>
+                <textarea name="description" id="description" placeholder="... brief description please"></textarea><br><br>
+                <input type="submit" value="Add"/>
+            </form>
+        </div>
+        <div class="content">
+           
+        </div>
+    </div>
+
+    <footer class = "footer">
+        <div class="footer-main-box">
+            <div class="footer-box">
+                <h4>Marin Stefan Daniel</h4>
+                <h6>Movie Tracker APP v1.0</h6>
+                <h6>&copy; 2021 No rights reserved</h6>
+            </div>
+            <div class="footer-box">
+                <h4>Mobile</h4>
+                <a href="#">
+                    <img href="#" src="images/gplay.png" alt="get it on google play store">
+                </a>
+                <a href="#">
+                    <img src="images/appstore.png" alt="get in on apple app store">
+                </a>
+            </div>
+            <div class="footer-box">
+                <h4>ABOUT US</h4>
+                <h4>CONTACT US</h4>
+                <h4>AFFILIATES</h4>
+            </div>
+        </div>
+    </footer>
+    
+
+
+    <script src="index.js"></script>
+
+</body>
+</html>

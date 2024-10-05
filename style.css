@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: rgb(100, 12, 12);
+}
+
+.header {
+    background-color: black;
+    color:orangered;
+    text-align: center;
+    font-family: Bebas Neue;
+    letter-spacing: 10px;
+    padding: 10px;
+}
+.header h1 {
+    font-size: 80px;
+    margin: 0;
+}
+.header h6 {
+    letter-spacing: 2px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: gold;
+    margin: 10px 10px 0 10px;
+    border-radius: 10px;
+    box-shadow: 1px 0px 14px gold;
+    padding: 10px;
+}
+
+.view-form-div {
+    align-items: flex-start;
+    
+}
+.sort-form-div {
+    align-items: flex-end;
+}
+
+.main {
+    display: flex;
+    color: gold;
+}
+
+.form-class {
+    background-color: black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    width: 20%;
+    color:gold;
+    box-shadow: 1px 0px 14px gold;
+}
+.content {
+    width:80%; 
+}
+
+.content-box {
+    display: flex;
+    flex-wrap: wrap; 
+}
+
+.movie-item {
+    background-color: black;
+    flex: 1;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 1px 0px 14px gold;
+    color: gold;
+    min-width: 400px;
+}
+
+.movie-item-list {
+    background-color: black;
+    border-radius: 20px;
+    box-shadow: 1px 0px 14px gold;
+    padding: 20px;
+    margin: 0 10px 10px 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+th, td {
+    background-color: black; 
+}
+th, td {
+    
+    padding: 10px;
+    box-shadow: 1px 0px 14px gold;
+    border-radius: 10px;
+}
+table {
+   
+    border-radius: 10px;
+    border-spacing: 5px 10px;
+    padding-left: 10px;
+    
+}
+.col20 {
+    width: 20%;
+}
+.col30 {
+    width: 30%;
+}
+.col10 {
+    width: 10%;
+}
+
+.footer {
+    background-color: black;
+    color: gold;
+}
+.footer-main-box {
+    display: flex;
+    justify-content: space-around;
+}
+.footer-box {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-bottom: 10px;
+}
+.footer-box img {
+    width : 200px;
+}
